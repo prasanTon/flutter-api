@@ -6,9 +6,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'prasan',
+        title: 'title',
         home: Scaffold(
-            appBar: AppBar(title: Text('prasansoft')),
-            body: Center(child: Icon(Icons.image, size: 100.0))));
+          appBar: AppBar(title: Text('title text')),
+          body: Center(child: RaisedButton(child: Text('member'))),
+        ));
   }
 }
